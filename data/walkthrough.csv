@@ -1,0 +1,7 @@
+step,tab,vehicle,position,step_label,title,body,next_label,disclaimer
+start,performance,,center,,"VINMax","Visibility that protects your margin",Start demo,You're viewing a demo.
+1,performance,,above-vdp-graph,1 of 5,"Track VDP views, impressions, and lift for your promoted cars, compared to before activation",,Next,
+2,active,,below-third-vehicle,2 of 5,See which vehicles are being promoted and why,,Next,
+3,active,third,left-of-drawer,3 of 5,See why each vehicle was selected and how it's performing,,Next,
+4,history,,above-history-header,4 of 5,"Get full campaign history, including removed listings",,Next,
+5,history,,left-of-sold-filter,5 of 5,"That's how VINMax protects your profit from lot to sale. With smart inventory exposure, you can focus on closing deals and holding margin.",,Explore around,
