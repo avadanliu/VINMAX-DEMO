@@ -44,7 +44,7 @@ let VEHICLES = [], ACTIVE = [], INACTIVE_UNSOLD = [], INACTIVE_SOLD = [], HISTOR
 
 const PERF = [0.30,0.10,0.25,0.45,0.30,0.25,0.55,0.80,0.55,0.40,0.62,0.95,0.82,1.12,1.15,1.10,0.80,1.42,1.50,1.85,1.60,1.55,1.50,1.18,2.15,2.62,1.35,2.55,0.42,0.28,0.75,0.75,0.78,1.50,1.50,1.25,1.25,0.35,1.90,3.00,2.00,0.05,3.00];
 
-const IMG_PLACEHOLDER = "assets/Vehicle-Placeholder.png";
+const IMG_PLACEHOLDER = "assets/vehicle-placeholder.png";
 
 function toHistoryP(p) {
   let out = '';
@@ -351,7 +351,7 @@ function ActiveVehiclesTab({ votes, onVote, onOpenDrawer, wide, activeId }) {
       <div style={{ fontSize:14, color:'#5e6976', margin:'6px 0 18px' }}>VINMax reviews your inventory every 14 days and picks the cars with the most room to improve. When a car sells, it's replaced automatically.</div>
       <div style={{ display:'grid', gridTemplateColumns:cols, gap:18, padding:'0 4px 10px', borderBottom:'1px solid #e8ebed', fontSize:12, fontWeight:500, color:'#3e4b5b' }}>
         <div style={{minWidth:280}}>Vehicle</div><div>Days on lot</div><div>VDP views</div>
-        {showExtra && <><div>Placement</div><div style={{ display:'flex', alignItems:'flex-start', gap:4 }}>Why we picked it <img src={"assets/AI-icon.png"} alt="" style={{width:'1em',height:'1em',objectFit:'contain',marginTop:1}}/></div></>}
+        {showExtra && <><div>Placement</div><div style={{ display:'flex', alignItems:'flex-start', gap:4 }}>Why we picked it <img src={"assets/ai-icon.png"} alt="" style={{width:'1em',height:'1em',objectFit:'contain',marginTop:1}}/></div></>}
       </div>
       {ACTIVE.map((v, vi) => {
         const chips = placeOrder((v.p.includes('Sponsored')?'P':'')+(v.p.includes('Social')?'S':'')+(v.p.includes('Sort boost')?'B':''));
