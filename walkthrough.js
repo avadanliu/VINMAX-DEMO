@@ -300,10 +300,10 @@
 
     card.innerHTML = `
       <div style="margin-bottom:20px">
-        <img src="assets/CarGurus-logo.png" alt="CarGurus" style="height:24px;width:auto">
+        <img src="assets/cargurus-logo.png" alt="CarGurus" style="height:24px;width:auto">
       </div>
       <div style="margin-bottom:16px;padding:16px 0">
-        <img src="assets/VINMax-logo.png" alt="VINMax" style="height:46px;width:auto">
+        <img src="assets/vinmax-logo.png" alt="VINMax" style="height:46px;width:auto">
       </div>
       <button class="vmx-wt-btn-next" id="vmx-wt-start-btn" style="padding:0 32px;height:40px;font-size:14px;border-radius:999px">${s.next_label}</button>
     `;
